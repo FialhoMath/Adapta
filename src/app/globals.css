@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Identidade visual Adapta: branco, azul claro e amarelo de destaque.
+   Ajuste os hex aqui para bater 100% com a logo. */
+@theme {
+  --color-brand: #4fb3e8;        /* azul claro */
+  --color-brand-light: #e8f5fc;  /* azul bem claro p/ fundos */
+  --color-brand-dark: #1f6f9e;   /* azul p/ títulos e contraste */
+  --color-accent: #ffc93c;       /* amarelo do CTA */
+  --color-accent-dark: #f5b700;
+  --color-ink: #0f2a3d;          /* texto */
+  --font-sans: "Plus Jakarta Sans Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
