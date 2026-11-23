@@ -48,7 +48,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-brand/15 bg-white/85 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
           <a href="#topo" aria-label="Adapta, voltar ao topo">
-            <Logo className="h-9" />
+            <Logo className="h-20" />
           </a>
           <nav className="hidden gap-8 text-sm font-semibold text-ink/70 md:flex" aria-label="Principal">
             <a href="#problema" className="hover:text-brand-dark">Problema</a>
