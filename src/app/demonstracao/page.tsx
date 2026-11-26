@@ -14,7 +14,7 @@ export default function Demonstracao() {
       <header className="border-b border-brand/15 bg-white">
         <div className="mx-auto flex max-w-6xl items-center px-5 py-3">
           <Link href="/" aria-label="Adapta, voltar à página inicial">
-            <Logo className="h-9" />
+            <Logo className="h-18" />
           </Link>
         </div>
       </header>
